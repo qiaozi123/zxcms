@@ -1,0 +1,433 @@
+.product_center{
+    width: 1200px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.porduct_center_on_zuo{
+    width: 345px;
+    float: left;
+    margin-top: 435px;
+}
+.porduct_center_on_you{
+    width: 810px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 105px;
+    position: relative;
+}
+.porduct_center_on_you_p{
+    width: 780px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.porduct_center_on_you_p_sp1{
+    font-size: 46.5px;
+    color: #444444;
+}
+.porduct_center_on_you_p_sp2{
+    font-size: 22px;
+    color: #444444;
+    margin-left: 10px;
+}
+.porduct_center_on_you_p_to{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #666;
+}
+.porduct_center_on_you_img{
+    position: absolute;
+    top: 18px;
+    left: -116px;
+}
+.fullSlides_porduct .btn{
+    position: absolute;
+    top: 888px;
+    left: 430px;
+}
+.fullSlides_porduct .btn a{
+    margin-right: 10px;
+}
+.porduct_gao_liushiba{
+    height: 68px;
+}
+.porduct_for{
+    width: 100%;
+    height: 700px;
+    background-color: #fafafa;
+    display: table;
+    position: relative;
+}
+.porduct_for_center{
+    width: 1256px;
+    margin: auto;
+    display: table;
+    position: relative;
+    margin-top: -68px;
+}
+.porduct_for_on{
+    width: 260px;
+    height: 330px;
+    float: left;
+    position: relative;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-bottom: 54px;
+}
+.porduct_for_on img{
+    width: 100%;
+    height: 100%;
+}
+.porduct_for_ons{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background: rgba(212,156,70,0.6);
+    display: none;
+}
+.porduct_for_on:hover .porduct_for_ons{
+    display: block;
+}
+.porduct_for_ons:hover{
+    display: block;
+}
+.porduct_for_ons_bor{
+    width: 238px;
+    height: 308px;
+    border: 1px solid #fff;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+}
+.porduct_for_ons_hr{
+    width: 25px;
+    height: 3px;
+    background: #6c7a6d;
+    margin: auto;
+    margin-top: 20px;
+}
+.porduct_h1{
+    font-size: 24px;
+    margin-top: 80px;
+}
+.porduct_h2{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.porduct_h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.porduct_buttom{
+    width: 1200px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.porduct_yibaiwu{
+    height: 100px;
+}
+.fullSlides_buttom .btn .prev{
+    position: absolute;
+    top: 150px;
+    right: -80px;
+}
+.fullSlides_buttom .btn .next{
+    position: absolute;
+    top: 150px;
+    left: -80px;
+}
+/*=================================
+    全明星整装
+===================================*/
+.star_gao_yibai{
+    height: 100px;
+}
+.fullSlides_star{
+    width: 1067px;
+    margin: auto;
+}
+.fullSlides_star .btn .prev{
+    position: absolute;
+    top: 150px;
+    right:0px;
+}
+.fullSlides_star .btn .next{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+.star_center{
+    width: 1200px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.lyLunBox{ width: 1200px; height: 583px; margin: 0 auto;}
+.lyLunList{ float: left; width: 52px; height: 583px; overflow: hidden; position: relative;}
+.lyLunHover{ position: absolute; top: 0; left: 0; z-index: 2;}
+.lyLunHide{ position: absolute; top: 0; left: 0; z-index: 1;}
+.lyLunAct{ width: 992px;}
+.star_form{
+    width: 1200px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.star_form_on{
+    margin-left: 185px;
+    margin-top: 181px;
+}
+.star_input{
+    width: 210px;
+    height: 50px;
+    margin-right: 125px;
+    float: left;
+    border: none;
+    background: rgba(0,0,0,0);
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+}
+.star_button{
+    width: 266px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: -50px;
+    border: none;
+    background: rgba(0,0,0,0);
+}
+.star_input::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);
+}
+.star_input:-moz-placeholder{
+    color: rgba(255,255,255,0.6);
+}
+.star_input::-moz-placeholder{
+    color: rgba(255,255,255,0.6);
+}
+.star_input:-ms-input-placeholder{
+    color: rgba(255,255,255,0.6);
+}
+/*===================================
+       整装内页
+=====================================*/
+.product_nei{
+    width: 1200px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.product_nei_zo{
+    position: absolute;
+    top: 55px;
+}
+.product_nei_on{
+    position: absolute;
+    top: 125px;
+    left: 180px;
+}
+.product_nei_to{
+    position: absolute;
+    top: -180px;
+}
+.product_nei_so{
+    position: absolute;
+    top: -380px;
+    left: 440px;
+}
+.product_nei_ct{
+    width: 660px;
+    height: 220px;
+    position: absolute;
+    left: 440px;
+    border: 0px solid red;
+    top: 220px;
+    display: table;
+}
+.product_nei_ct_ss{
+    width: 100%;
+    height: auto;
+    display: table;
+    position: relative;
+    margin-top: 30px;
+}
+.product_nei_ct_ss_ji{
+    width: 386px;
+    float: left;
+    display: table;
+}
+.product_nei_ct_ss_ji_ss{
+    width: 52px;
+    float: left;
+    color: #232323;
+    font-size: 18px;
+}
+.product_nei_ct_ss_ji_sss{
+    width: 330px;
+    float: left;
+    color: #232323;
+    font-size: 18px;
+}
+.product_nei_ct_ss_ji_sss p{
+    margin-bottom: 7px;
+}
+.product_nei_ct_ss_zhu{
+    width: 240px;
+    margin-left: 10px;
+    float: left;
+    display: table;
+}
+.product_nei_ct_ss_zhu_sss{
+    width: 186px;
+    float: left;
+    color: #232323;
+    font-size: 18px;
+}
+.product_nei_ct_ss_zhu_sss p{
+    margin-bottom: 7px;
+}
+.product_nei_fo{
+   position: absolute;
+    top: 80px;
+}
+.product_nei_wo{
+    width: 280px;
+    color: #232323;
+    font-size: 18px;
+    position: absolute;
+    right: 100px;
+    top:155px;
+}
+.product_nei_wo .product_nei_ct_ss_zhu{
+    width: 100%;
+    margin-top: 50px;
+}
+.product_nei_wo .product_nei_ct_ss_zhu_sss{
+    width: 220px;
+}
+.product_nei_can{
+    width: 408px;
+    position: absolute;
+    left: 88px;
+    top: 85px;
+}
+.product_nei_can .product_nei_ct_ss_zhu{
+    width: 100%;
+    margin-top: 30px;
+}
+.product_nei_can .product_nei_ct_ss_zhu_sss{
+    width: 350px;
+}
+.product_nei_can .product_nei_ct_ss_zhu_sss p{
+    margin-bottom: 5px;
+}
+.product_nei_fv{
+    position: absolute;
+    top: 522px;
+}
+.product_nei_sx{
+    position: absolute;
+    top: 368px;
+    left: 500px;
+}
+.product_nei_wei{
+    width: 413px;
+    position: absolute;
+    right: 0px;
+    top: 130px;
+}
+.product_nei_wei .product_nei_ct_ss_zhu{
+    width: 100%;
+    margin-top: 30px;
+}
+.product_nei_wei .product_nei_ct_ss_zhu_sss{
+    width: 350px;
+}
+.product_nei_wei .product_nei_ct_ss_zhu_sss p{
+    margin-bottom: 3px;
+}
+.product_nei_yang{
+    width: 413px;
+    position: absolute;
+    left: 260px;
+    top: 35px;
+}
+.product_nei_yang .product_nei_ct_ss_zhu{
+    width: 100%;
+    margin-top: 30px;
+}
+.product_nei_yang .product_nei_ct_ss_zhu_sss{
+    width: 350px;
+}
+.product_nei_yang .product_nei_ct_ss_zhu_sss p{
+    margin-bottom: 3px;
+}
+.product_nei_sit{
+    position: absolute;
+    right:90px;
+}
+.product_nei_xihuan{
+    width: 100%;
+    height: 130px;
+    background-color: #d7d7d7;
+}
+.product_nei_xi_center{
+    width: 1200px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.product_nei_xi_center_p1{
+    color: #303030;
+    font-size:24px;
+}
+.product_nei_xi_center_p2{
+    color: rgba(48,48,48,0.6);
+    font-size: 12px;
+    margin-top: 5px;
+}
+.product_nei_xi_center_img{
+    float: right;
+    margin-top: -45px;
+    margin-right: 20px;
+}
+.product_nei_lunbo{
+    width: 100%;
+    height: 500px;
+}
+.product_nei_lunbo_center{
+    width: 1200px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.product_nei_lunbo_for{
+    width: 260px;
+    height: 380px;
+    float: left;
+    border: 1px solid #bfbfbf;
+    margin-right: 50px;
+}
+.product_nei_lunbo_for_zi{
+    height: 50px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+}
+.product_nei_lunbo_for_zi_p1{
+    font-size: 18px;
+    color: #303030;
+}
+.product_nei_lunbo_for_zi_p2{
+    font-size: 16px;
+    color: #303030;
+    margin-left: 5px;
+}
+.product_nei_lunbo_for_img{
+    width: 100%;
+    height: 330px;
+}
