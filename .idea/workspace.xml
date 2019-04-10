@@ -2,27 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb63f3be-5fdc-41b4-8c19-3c3fd20e4cae" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/css/mobile-fiesta-jbfiniaf49.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/css/swiper.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/css/topic-fenggehui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/css/weui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/images/580c32d9ca78e.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/images/cf.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/images/ct.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/images/kt.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/images/sf.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/images/ws.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/images/xsj.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/js/adaptive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/js/fastclick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/js/jquery.vticker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/js/mobile-fiesta-jbfiniaf49.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/asset/js/swiper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/m/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="285">
+              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -152,7 +131,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/m/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="679">
@@ -383,10 +362,10 @@
         <option value="$PROJECT_DIR$/resources/views/web/sitemap.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SiteMapController.php" />
         <option value="$PROJECT_DIR$/resources/views/web/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/public/asset/css/topic-fenggehui.css" />
         <option value="$PROJECT_DIR$/resources/views/m/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -625,12 +604,12 @@
       <workItem from="1553847949056" duration="9964000" />
       <workItem from="1554088766574" duration="61450000" />
       <workItem from="1554616644375" duration="22803000" />
-      <workItem from="1554777293294" duration="29104000" />
+      <workItem from="1554777293294" duration="29184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123321000" />
+    <option name="totallyTimeSpent" value="123401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1177,14 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/web/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1425,6 +1396,14 @@
             <marker date="1554887519980" expanded="true" signature="19531:19550" ph="..." />
             <marker date="1554887519980" expanded="true" signature="19714:19743" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
