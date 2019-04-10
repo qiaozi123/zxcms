@@ -23,6 +23,7 @@ Route::post('userpost', 'HomeController@UserPost');
 Route::post('gongdipost', 'HomeController@gongdipost');
 Route::get('/sitemap.xml', 'SitemapController@index');
 Route::get('/sitemap{id}.xml', 'SitemapController@index');
+Route::get('/m/index.php', 'HomeController@m');
 
 
 

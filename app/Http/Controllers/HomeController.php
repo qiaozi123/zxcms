@@ -50,4 +50,10 @@ class HomeController extends Controller
         }
     }
 
+    public function m()
+    {
+        $data = WebConf::find(1);
+        return view('m.index',compact('data'));
+    }
+
 }
