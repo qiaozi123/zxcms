@@ -65,68 +65,7 @@
                     </div>
                 </div>
                 <div class="list_gao_20"></div>
-                <div class="list_center_on_zuo_on article_nei_cales" style="z-index: 999; position: relative; top: 0px; margin: 0px auto;">
-                    <div class="list_cases_on_zuo_center">
-                        <div class="list_gao_20"></div>
-                        <div class="list_cases_to">
-                            <p class="list_center_on_zuo_center_p1">热门装修案例</p>
-                            <div class="list_center_on_zuo_center_huang"></div>
-                            <a href="http://www.daohedesign.com/cases.html">
-                                <div class="list_cases_to_sss"> MORE &gt; </div>
-                            </a> </div>
-                        <div class="list_gao_20"></div>
-                        <a href="http://www.daohedesign.com/case/os/406.html">
-                            <div class="list_cases_on">
-                                <div class="list_cases_on_img"> <img src="{{url('asset/images')}}/1-1Q011161K50-L.jpg" alt=""> </div>
-                                <div class="list_cases_title_s"> 金色春天装修案例 </div>
-                            </div>
-                        </a>
-                        <a href="http://www.daohedesign.com/case/ty/395.html">
-                            <div class="list_cases_on">
-                                <div class="list_cases_on_img"> <img src="{{url('asset/images')}}/1-1Q0111559531I.jpg" alt=""> </div>
-                                <div class="list_cases_title_s"> 世纪风景装修案例 </div>
-                            </div>
-                        </a>
-                        <a href="http://www.daohedesign.com/case/xdjy/387.html">
-                            <div class="list_cases_on">
-                                <div class="list_cases_on_img"> <img src="{{url('asset/images')}}/1-1Q0111020380-L.jpg" alt=""> </div>
-                                <div class="list_cases_title_s"> 威尼斯装修案例 </div>
-                            </div>
-                        </a>
-                        <a href="http://www.daohedesign.com/case/xdjy/388.html">
-                            <div class="list_cases_on">
-                                <div class="list_cases_on_img"> <img src="{{url('asset/images')}}/1-1Q01110593M11.jpg" alt=""> </div>
-                                <div class="list_cases_title_s"> 香颂城装修案例 </div>
-                            </div>
-                        </a>
-                        <a href="http://www.daohedesign.com/case/msxc/409.html">
-                            <div class="list_cases_on">
-                                <div class="list_cases_on_img"> <img src="{{url('asset/images')}}/1-1Q011162T60-L.jpg" alt=""> </div>
-                                <div class="list_cases_title_s"> 金色春天装修案例 </div>
-                            </div>
-                        </a>
-                        <a href="http://www.daohedesign.com/case/os/403.html">
-                            <div class="list_cases_on">
-                                <div class="list_cases_on_img"> <img src="{{url('asset/images')}}/1-1Q0111611550-L.jpg" alt=""> </div>
-                                <div class="list_cases_title_s"> 龙玺台装修案例 </div>
-                            </div>
-                        </a>
-                        <a href="http://www.daohedesign.com/case/xdjy/390.html">
-                            <div class="list_cases_on">
-                                <div class="list_cases_on_img"> <img src="{{url('asset/images')}}/1-1Q011153F4X8.jpg" alt=""> </div>
-                                <div class="list_cases_title_s"> 兰溪八期装修案例 </div>
-                            </div>
-                        </a>
-                        <a href="http://www.daohedesign.com/case/zs/391.html">
-                            <div class="list_cases_on">
-                                <div class="list_cases_on_img"> <img src="{{url('asset/images')}}/1-1Q0111539220-L.jpg" alt=""> </div>
-                                <div class="list_cases_title_s"> 传世风景装修案例 </div>
-                            </div>
-                        </a>
 
-                        <div class="list_gao_1"></div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
