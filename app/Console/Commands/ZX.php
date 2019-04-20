@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 use App\Comic;
+use App\Model\Article;
 use GuzzleHttp\Client;
 use GuzzleHttp\Pool;
 use function GuzzleHttp\Psr7\str;
@@ -23,7 +24,7 @@ class ZX extends Command
      *
      * @var string
      */
-    protected $signature = 'zx:start';
+    protected $signature = 'baidu1:start';
     private $totalPageCount;
     private $counter = 1;
     private $concurrency = 10;  // 同时并发抓取
@@ -55,37 +56,30 @@ class ZX extends Command
 
     public function handle()
     {
-        set_time_limit(0);
-        ini_set('memory_limit', '1280M');
-        $i=1;
-        while (true){
-            $client = new Client();
-            $http = $client->getAsync( 'http://www.zhongyiju360.com/article/detail-'.$i.'.html')->getBody()->getContents();
-            $i++;
-            $crawler = new Crawler($http);
-            $arr['title'] = $crawler->filter('body > div.content.borderb.pdb20 > div.mainwd > div.main-content.lt > div.news-detail.article-detail.borderall > div.news-detail-title.pdlr20 > h1')->html();
-            $arr['author'] = '眉山装修网';
-            $arr['see_count'] = rand(100,1000);
-            $arr['avatar'] = '/asset/images/default.png';
-            $arr['show'] = 1;
-            $arr['created_at'] = date('Y-m-d H:i:s');
-            $arr['updated_at'] = date('Y-m-d H:i:s');
-            $arr['content'] = $crawler->filter('body > div.content.borderb.pdb20 > div.mainwd > div.main-content.lt > div.news-detail.article-detail.borderall > div.news-detail-content.mlr20 > div.contentBox')->html();
-            print_r($arr);
+        ini_set('memory_limit','50M');
+
+
+        $data =  Article::all();
+        foreach($data as $item){
+            $urls[] = 'http://www.ywxmh.cn/page/'.$item->id.'.html';
         }
-    }
+        $chunk_result = array_chunk($urls, 2000, true);
 
-
-    public function chapterimg()
-    {
-        Comic::where('id', '>', '13928')->get();
-    }
-
-
-    public function countedAndCheckEnded()
-    {
-        if ($this->counter < $this->totalPageCount) {
-            return;
+        foreach ($chunk_result as $item){
+            $api = 'http://data.zz.baidu.com/urls?site=www.ywxmh.cn&token=Vb8hvWQpuiRBJoUp';
+            $ch = curl_init();
+            $options =  array(
+                CURLOPT_URL => $api,
+                CURLOPT_POST => true,
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_POSTFIELDS => implode("\n", $item),
+                CURLOPT_HTTPHEADER => array('Content-Type: text/plain'),
+            );
+            curl_setopt_array($ch, $options);
+            $result = curl_exec($ch);
+            echo $result.PHP_EOL;
         }
+
     }
+
 }
