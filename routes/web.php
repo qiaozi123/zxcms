@@ -24,6 +24,7 @@ Route::post('gongdipost', 'HomeController@gongdipost');
 Route::get('/sitemap.xml', 'SiteMapController@index');
 Route::get('/sitemap{id}.xml', 'SiteMapController@index');
 Route::get('/m/index.php', 'HomeController@m');
+Route::get('/news/{id}', 'HomeController@index');
 
 
 
