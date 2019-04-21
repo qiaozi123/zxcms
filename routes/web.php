@@ -26,7 +26,7 @@ Route::get('/sitemap{id}.xml', 'SiteMapController@index');
 Route::get('/m/index.php', 'HomeController@m');
 Route::get('/news/{id}', 'HomeController@index');
 Route::get('/art/{id}', 'HomeController@index');
-Route::get('/pic/{id}', 'HomeController@index');
+Route::get('/html5/news/{id}', 'HomeController@index');
 
 
 
