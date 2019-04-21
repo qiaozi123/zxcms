@@ -64,9 +64,8 @@ class ZX extends Command
             $urls[] = 'http://www.ywxmh.cn/page/'.$item->id.'.html';
         }
         $chunk_result = array_chunk($urls, 2000, true);
-
         foreach ($chunk_result as $item){
-            $api = 'http://data.zz.baidu.com/urls?site=www.ywxmh.cn&token=Vb8hvWQpuiRBJoUp';
+            $api = 'http://data.zz.baidu.com/urls?site=www.ywxmh.cn&token=Zd1CyjaURA2i57HJ';
             $ch = curl_init();
             $options =  array(
                 CURLOPT_URL => $api,
