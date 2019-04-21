@@ -78,23 +78,8 @@ class Page extends Command
         }
         $bool = DB::table('articles')->insert($arr);
         if ($bool){
-            echo '齐家今日自媒体文章数据抓取完成'.$bool.PHP_EOL;
+            echo '齐家'.date('Y-m-d').'自媒体文章数据抓取完成'.$bool.PHP_EOL;
         }
     }
 
-
-    public function countedAndCheckEnded()
-    {
-        if ($this->counter < $this->totalPageCount){
-            return;
-        }
-
-        $comic =  Comic::where(['series_id'=>4,'comic_img_url'=>null])->get()->toArray();
-        if (empty($comic)){
-            exit('抓取完毕');
-        }else{
-            return;
-        }
-
-    }
 }
