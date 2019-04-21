@@ -258,7 +258,7 @@ font-weight: 400;">目前已有<span style="color: #f7cc48;">1267</span>人获�
         </div>
     </div>
 </div>
-<div class="footer_offer_cha_zhanxian" style="display: block;"> <img src="{{url('asset/images/mo_42.png')}}" alt=""> </div>
+<div class="footer_offer_cha_zhanxian" style="display: none;"> <img src="{{url('asset/images/mo_42.png')}}" alt=""> </div>
 
 <div id="iconDiv1" style="height: auto; width: auto;">
 
