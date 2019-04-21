@@ -5,7 +5,7 @@
 
 @section('content')
     <div class="sjzz_1920" onclick="window.open(&#39;/taocan.html&#39;,&#39;_blank&#39;)" style="cursor: pointer; ">
-        <div style="width:100%; height:550px; background:url(&#39;/asset/images/9985c3d6cfabc7c6.gif&#39;) center center no-repeat;"></div>
+        <div style="width:100%; height:550px; background:url(&#39;/asset/images/9985c3d6cfabc7c6.jpg&#39;) center center no-repeat;"></div>
     </div>
     <div id="index-new1">
         <section class="advantage">
@@ -192,7 +192,7 @@
                 <p class="portal_biaoti_p3" style="margin-top: 17px;">“邻居”的家</p>
             </div>
             <div class="portal_case_gaos"></div>
-            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt6.gif')}}" width="380px" height="514px">
+            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt6.jpg')}}" width="380px" height="514px">
                     <div class="portal_case_six_to_on">
                         <div class="portal_case_six_to_onsyx">
                             <p class="portal_case_six_to_onsyx_p1"> 现代简约</p>
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                 </a> </div>
-            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt7.gif')}}" width="380px" height="514px">
+            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt7.jpg')}}" width="380px" height="514px">
                     <div class="portal_case_six_to_on">
                         <div class="portal_case_six_to_onsyx">
                             <p class="portal_case_six_to_onsyx_p1"> 现代简约</p>
@@ -217,7 +217,7 @@
 
         </div>
         <div class="portal_case_sixs">
-            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt1.gif')}}" width="380px" height="514px">
+            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt1.jpg')}}" width="380px" height="514px">
                     <div class="portal_case_six_to_on">
                         <div class="portal_case_six_to_onsyx">
                             <p class="portal_case_six_to_onsyx_p1"> 现代简约</p>
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                 </a> </div>
-            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt2.gif')}}" width="380px" height="514px">
+            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt2.jpg')}}" width="380px" height="514px">
                     <div class="portal_case_six_to_on">
                         <div class="portal_case_six_to_onsyx">
                             <p class="portal_case_six_to_onsyx_p1"> 美式乡村</p>
@@ -240,7 +240,7 @@
         </div>
         <!--案例右2-->
         <div class="portal_case_sixss">
-            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt3.gif')}}" width="380px" height="514px">
+            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt3.jpg')}}" width="380px" height="514px">
                     <div class="portal_case_six_to_on">
                         <div class="portal_case_six_to_onsyx">
                             <p class="portal_case_six_to_onsyx_p1"> 现代简约</p>
@@ -249,7 +249,7 @@
                         </div>
                     </div>
                 </a> </div>
-            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt4.gif')}}" width="380px" height="514px">
+            <div class="portal_case_six_to"> <a href="{{url('')}}" target="_blank"> <img src="{{url('asset/images/zyt4.jpg')}}" width="380px" height="514px">
                     <div class="portal_case_six_to_on">
                         <div class="portal_case_six_to_onsyx">
                             <p class="portal_case_six_to_onsyx_p1"> 中式</p>
