@@ -1,7 +1,7 @@
 @extends('web.layouts.app')
 @section('title',$data->title.'_'.\App\Model\Nav::TDK('page')->title)
 @section('keywords',\App\Model\Nav::TDK('page')->keywords)
-@section('description',str_limit( $data->content,100) )
+@section('description','眉山装修,眉山装修公司,眉山装修公司排名,眉山家装,眉山家装公司,眉山装修公司哪家好,眉山装饰平台' )
 @section('content')
     <!--轮播-->
     <div class="sjzz_1920">
@@ -27,7 +27,9 @@
                             <div class="list_center_on_hr_s"></div>
                         </div>
                         <div class="list_gao_20"></div>
-                        <div class="list_center_on_p2"> <span><img src="{{url('asset/images')}}/mo_60.jpg" alt=""></span> 604 &nbsp; <span><img src="{{url('asset/images')}}/mo_61.jpg" alt=""></span> 阅览 <script src="{{url('asset/images')}}/count.php" type="text/javascript" language="javascript"></script>152&nbsp;&nbsp;&nbsp;
+                        <div class="list_center_on_p2"> <span>
+                                <img src="{{url('asset/images')}}/mo_60.jpg" alt=""></span> {{$data->see_count}} &nbsp; <span>
+                                <img src="{{url('asset/images')}}/mo_61.jpg" alt=""></span> 阅览 <script src="{{url('asset/images')}}/count.php" type="text/javascript" language="javascript"></script>{{$data->see_count}} &nbsp;&nbsp;&nbsp;
                             发布时间：{{$data->created_at}} </div>
                         <div class="list_gao_20"></div>
                         <!--正文-->

@@ -4,7 +4,7 @@
 @section('description',\App\Model\Nav::TDK('taocan')->description)
 @section('content')
     <!--head over-->
-    <div class="sjzz_1920" onclick="window.open(&#39;/taocan&#39;,&#39;_blank&#39;)" style="cursor: pointer; ">
+    <div class="sjzz_1920" onclick="window.open(&#39;/taocan.html&#39;,&#39;_blank&#39;)" style="cursor: pointer; ">
         <div style="width:100%; height:550px; background:url(&#39;/asset/images/9lb.jpg&#39;) center center no-repeat;"></div>
     </div>
     <div style="width:100%; height:726px; background:url(/asset/images/mo_91.jpg) center center no-repeat;">
@@ -230,42 +230,42 @@
                 <p>红砖包管降噪音工艺</p>
             </div>
             <ul class="slides top fright">
-                <li> <img src="{{url('asset/images/content-craft1.jpg')}}" alt="">
+                <li> <img src="{{url('asset/images/content-craft1.jpg')}}" alt="瓷砖干铺工艺">
                     <p>瓷砖干铺工艺</p>
                 </li>
                 <!--
                           -->
-                <li> <img src="{{url('asset/images/content-craft2.jpg')}}" alt="">
+                <li> <img src="{{url('asset/images/content-craft2.jpg')}}" alt="门套压石工艺">
                     <p>门套压石工艺</p>
                 </li>
                 <!--
                           -->
-                <li> <img src="{{url('asset/images/content-craft3.jpg')}}" alt="">
+                <li> <img src="{{url('asset/images/content-craft3.jpg')}}" alt="水管热熔连接工艺">
                     <p>水管热熔连接工艺</p>
                 </li>
                 <!--
                           -->
-                <li> <img src="{{url('asset/images/content-craft4.jpg')}}" alt="">
+                <li> <img src="{{url('asset/images/content-craft4.jpg')}}" alt="墙砖压地砖工艺">
                     <p>墙砖压地砖工艺</p>
                 </li>
             </ul>
             <ul class="slides fright">
-                <li> <img src="{{url('asset/images/content-craft5.jpg')}}" alt="">
+                <li> <img src="{{url('asset/images/content-craft5.jpg')}}" alt="地面固化防尘工艺">
                     <p>地面固化防尘工艺</p>
                 </li>
                 <!--
                           -->
-                <li> <img src="{{url('asset/images/content-craft6.jpg')}}" alt="">
+                <li> <img src="{{url('asset/images/content-craft6.jpg')}}" alt="地漏防渗漏工艺">
                     <p>地漏防渗漏工艺</p>
                 </li>
                 <!--
                           -->
-                <li> <img src="{{url('asset/images/content-craft7.jpg')}}" alt="">
+                <li> <img src="{{url('asset/images/content-craft7.jpg')}}" alt="吊顶转角防开裂工艺">
                     <p>吊顶转角防开裂工艺</p>
                 </li>
                 <!--
                           -->
-                <li> <img src="{{url('asset/images/content-craft8.jpg')}}" alt="">
+                <li> <img src="{{url('asset/images/content-craft8.jpg')}}" alt="阴阳角护角工艺">
                     <p>阴阳角护角工艺</p>
                 </li>
                 <!--
@@ -279,23 +279,23 @@
             <h4>售后保障</h4>
             <p>完善的售后服务体系，及时响应并处理一切售后问题</p>
             <ul>
-                <li class="green"> <span class="down"></span> <img src="{{url('asset/images/content-afterSale1.png')}}" alt="">
+                <li class="green"> <span class="down"></span> <img src="{{url('asset/images/content-afterSale1.png')}}" alt="隐蔽工程质保">
                     <p class="title">年</p>
                     <p>隐蔽工程质保</p>
                 </li>
                 <!--
                           -->
-                <li class="blue active"> <span class="down"></span> <img src="{{url('asset/images/content-afterSale2.png')}}" alt="">
+                <li class="blue active"> <span class="down"></span> <img src="{{url('asset/images/content-afterSale2.png')}}" alt="整装质保">
                     <p class="title">年</p>
                     <p>整装质保</p>
                 </li>
                 <!--
                           -->
-                <li class="yellow"> <span class="down"></span> <img src="{{url('asset/images/content-afterSale3.png')}}" alt="">
+                <li class="yellow"> <span class="down"></span> <img src="{{url('asset/images/content-afterSale3.png')}}" alt="平安家装无忧险">
                     <p class="title">万元</p>
                     <p>平安家装无忧险</p>
                 </li>
-                <li class="yellow yellow2"> <span class="down"></span> <img src="{{url('asset/images/content-afterSale4.png')}}" alt="">
+                <li class="yellow yellow2"> <span class="down"></span> <img src="{{url('asset/images/content-afterSale4.png')}}" alt="售后极速响应">
                     <p class="title">小时</p>
                     <p>售后极速响应</p>
                 </li>

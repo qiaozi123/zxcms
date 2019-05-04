@@ -1,7 +1,7 @@
 @extends('web.layouts.app')
 @section('title',\App\Model\Nav::TDK('page')->title)
 @section('keywords',\App\Model\Nav::TDK('page')->keywords)
-@section('description',\App\Model\Nav::TDK('page')->description)
+@section('description','眉山装修,眉山装修公司,眉山装修公司排名,眉山家装,眉山家装公司,眉山装修公司哪家好,眉山装饰平台')
 @section('content')
     <div class="sjzz_1920">
         <div style="width:100%; height:350px; background:url(&#39;/asset/images/5b6be721b1d30.jpg&#39;) center center no-repeat;"></div>
@@ -48,8 +48,8 @@
                         <div class="list_center_on_zuo_center_huang"></div>
                         <div class="list_gao_20"></div>
                         @foreach($hot as $item)
-                        <a href={{url('/page/'.$item->id)}}.html">
-                            <div class="list_center_on_zuo_center_img"> <img src="{{url($item->avatar)}}" alt="">
+                        <a href="{{url('/page/'.$item->id)}}.html">
+                            <div class="list_center_on_zuo_center_img"> <img src="{{url($item->avatar)}}" alt="{{$item->title}}">
                                 <div class="list_center_on_zuo_center_title">
                                     <p class="list_tui_p1">{{$item->title}}</p>
                                     <p class="list_tui_p2">{{$item->created}} </p>
