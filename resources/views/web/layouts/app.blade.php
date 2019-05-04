@@ -16,18 +16,7 @@
     <script src="{{url('asset/js/jquery.js')}}"></script>
     <link rel="shortcut icon" href="{{url('asset/favicon.ico')}}" type="image/x-icon">
 </head>
-<body style="">
-
-<div style="width: 0px; height: 0px; background-color: black; opacity: 0.03; overflow: hidden; border: 0px; position: absolute; left: 0px; top: 0px; z-index: 999999;"></div>
-<div style="position: absolute; width: 400px; display: none; opacity: 0; z-index: 1000000; overflow: hidden; border: 0px; margin-left: 0px; margin-right: 0px; left: 261px; top: 353.575px;">
-    <div style="width: auto; height: auto; background-color: transparent; overflow: hidden; border: 0px; margin-right: 0px; margin-left: 0px;">
-        <div class="call365_inviteStyle4">
-
-        </div></div></div><div style="width: 0px; height: 0px; background-color: black; opacity: 0.03; overflow: hidden; border: 0px; position: absolute; left: 0px; top: 0px; z-index: 999999;"></div>
-
-
-<!--[if lte IE 8]> <p class="browserupgrade">您的浏览器版本无法流畅的阅览网页, 请切换浏览器模式到极速模式或更换浏览器, 以获取最佳的体验</p> <![endif]-->
-
+<body >
 <!--head begin-->
 <div class="mo_top">
     <!--头部联系-->
